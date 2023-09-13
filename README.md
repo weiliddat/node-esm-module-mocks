@@ -1,4 +1,4 @@
-Various ways to do module interception in Node to create testing seams.
+Various ways to do ES module interception in Node to create testing seams.
 
 ## Motivation
 
