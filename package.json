@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test && npx vitest --run"
   },
   "type": "module",
   "exports": {
@@ -16,5 +16,8 @@
     "@types/node": "^20.6.0",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "vitest": "^0.34.4"
   }
 }
